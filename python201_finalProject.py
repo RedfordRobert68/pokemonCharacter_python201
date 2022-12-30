@@ -1,6 +1,6 @@
 import requests
 
-
+# Pokemon App
 # ************************************
 # Functions
 # ***********************************
@@ -12,7 +12,6 @@ def get_character():
     print("\nAbilities:")
     for ability in pokemon['abilities']:
         print(ability['ability']['name'])
-
 
     print("\nStrengths:")
     for stat in pokemon['stats']:
