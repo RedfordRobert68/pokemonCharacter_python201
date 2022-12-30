@@ -1,10 +1,3 @@
-# Ask for user input
-# Create a dynamic URL based on Step 1
-# Fetch the data from the URL in Step 2
-# Convert JSON to a dictionary
-# Print out Pokemon data
-
-# import json
 import requests
 
 
@@ -66,8 +59,4 @@ while True:
                     exit()
                 elif retry.lower() == "yes":
                     break
-
-
-# print(type(pokemon))
-
  
